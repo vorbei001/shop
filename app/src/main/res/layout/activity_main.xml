@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="text.bw.com.shop.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_homemy"
+            android:text="月光茶人"
+            android:textColor="#f00"
+            android:button="@null"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:ellipsize="marquee"
+            android:drawableTop="@drawable/homemy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rb_tuan"
+            android:text="优惠"
+            android:button="@null"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:drawableTop="@drawable/tuan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            android:text="购物车"
+            android:button="@null"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:drawableTop="@drawable/cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            android:text="我的"
+            android:button="@null"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:drawableTop="@drawable/my"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+</LinearLayout>
